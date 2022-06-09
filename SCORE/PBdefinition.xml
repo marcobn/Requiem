@@ -1,0 +1,38 @@
+<!DOCTYPE patchbay>
+<patchbay version="0.9.1" name="PBdefinition">
+ <output-sockets>
+  <socket exclusive="off" type="jack-audio" client="pyo" name="pyo 1">
+   <plug>output_1</plug>
+   <plug>output_2</plug>
+   <plug>output_3</plug>
+   <plug>output_4</plug>
+   <plug>output_5</plug>
+   <plug>output_6</plug>
+   <plug>output_7</plug>
+   <plug>output_8</plug>
+   <plug>output_9</plug>
+   <plug>output_10</plug>
+   <plug>output_11</plug>
+   <plug>output_12</plug>
+  </socket>
+ </output-sockets>
+ <input-sockets>
+  <socket exclusive="off" type="jack-audio" client="REAPER" name="REAPER 1">
+   <plug>in1</plug>
+   <plug>in2</plug>
+   <plug>in3</plug>
+   <plug>in4</plug>
+   <plug>in5</plug>
+   <plug>in6</plug>
+   <plug>in7</plug>
+   <plug>in8</plug>
+   <plug>in9</plug>
+   <plug>in10</plug>
+   <plug>in11</plug>
+   <plug>in12</plug>
+  </socket>
+ </input-sockets>
+ <slots/>
+ <cables/>
+</patchbay>
+
